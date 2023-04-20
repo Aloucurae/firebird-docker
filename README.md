@@ -1,11 +1,13 @@
 # docker Firebird
 
+Imagem alterada para funcionar para sistemas da Sisplan
+
 Baseado na imagem do Firebird [jacobalberty/firebird
 ](https://hub.docker.com/r/jacobalberty/firebird)
 
 Versao disponoverl:
 
-<p><a href="https://github.com/Aloucurae/firebird-docker/Dockerfile" rel="nofollow noopener"> <code>v3.0</code>  (<em>Dockerfile</em>)</a></p>
+<p><a href="https://github.com/Aloucurae/firebird-docker/blob/main/Dockerfile" rel="nofollow noopener"> <code>v3.0</code>  (<em>Dockerfile</em>)</a></p>
 
 <h2>Description</h2>
 <p>This is a Firebird SQL Database container.</p>
@@ -18,7 +20,7 @@ Password is either set by <code>ISC_PASSWORD</code> or randomized</p>
 <p>TimeZone. (i.e. America/Chicago)</p>
 
 <h3><code>FIREBIRD_ALIASES </code></h3>
-<p>MYDB=/some/long/directory;MYOTHERDB=/some/other/long/directory</p>
+<p>this way, outside container, you can access the database using the aliases MYDB and MYOTHERDB instead of their path.</p>
 <p>MYDB=/some/long/directory;MYOTHERDB=/some/other/long/directory</p>
 
 
